@@ -1,0 +1,136 @@
+{
+ "cells": [
+  {
+   "cell_type": "code",
+   "execution_count": 6,
+   "id": "72c2a27a",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "beyaT mairiM\n"
+     ]
+    }
+   ],
+   "source": [
+    "txt = \"Miriam Tayeb\"[::-1]\n",
+    "print(txt)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "dfb4d66c",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "a = int(input(\"5 : \"))\n",
+    "n1 = int( \"%s\" % 5 )\n",
+    "n2 = int( \"%s%s\" % (5,5) )\n",
+    "n3 = int( \"%s%s%s\" % (5,5,5) )\n",
+    "print (n+nn+nnn)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "654d4911",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "num = int(input(\"2: \"))\n",
+    "if (num % 2) == 0:\n",
+    "   print(\"{0} is Even\".format(num))\n",
+    "else:\n",
+    "   print(\"{0} is Odd\".format(num))"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 1,
+   "id": "876d05b2",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "2030,2065,2100,2135,2170,2205,2240,2275,2310,2345,2380,2415,2450,2485,2520,2555,2590,2625,2660,2695,2730,2765,2800,2835,2870,2905,2940,2975,3010,3045,3080,3115,3150,3185\n"
+     ]
+    }
+   ],
+   "source": [
+    "nl=[]\n",
+    "for x in range(2000, 3200):\n",
+    "    if (x%7==0) and (x%5==0):\n",
+    "        nl.append(str(x))\n",
+    "print (','.join(nl))"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "a94e3b67",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "def fact(x):\n",
+    "    if x == 0:\n",
+    "        return 1\n",
+    "    return x * fact(x - 1)\n",
+    "\n",
+    "x=int(input())\n",
+    "print(fact(x))\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "674f05a5",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "def odd_values_string(str):\n",
+    "  result = \"\" \n",
+    "  for i in range(len(str)):\n",
+    "    if i % 2 == 0:\n",
+    "      result = result + str[i]\n",
+    "  return result\n",
+    "\n",
+    "print(odd_values_string('hello team'))\n",
+    "print(odd_values_string('hello team'))\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "36cfb0bd",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "Python 3",
+   "language": "python",
+   "name": "python3"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.8.8"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 5
+}
